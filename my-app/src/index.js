@@ -8,14 +8,15 @@ import reportWebVitals from './reportWebVitals';
 import Library from './chapter_03/library';
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
+import NotificationList from './chapter_06/NotificationList';
 
 const root = createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <NotificationList />
   </React.StrictMode>,
-  document.getElementById('root')
+  // document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
